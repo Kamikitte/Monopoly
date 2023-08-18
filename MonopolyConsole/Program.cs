@@ -22,6 +22,7 @@ namespace MonopolyConsole
             Console.WriteLine("Введите \"help\", чтобы просмотреть список команд.");
             while(true)
             {
+                Console.WriteLine("Введите команду.");
                 var command = Console.ReadLine();
                 if (_actions.ContainsKey(command))
                 {
